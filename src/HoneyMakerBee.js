@@ -5,7 +5,7 @@ var HoneyMakerBee = function() {
   this.honeyPot = 0;
 
 };
-HoneyMakerBee.prototype = Object.create(Bee.prototype);
+HoneyMakerBee.prototype = Object.create(Grub.prototype);
 HoneyMakerBee.prototype.constructor = HoneyMakerBee;
 
 HoneyMakerBee.prototype.makeHoney = function (){
